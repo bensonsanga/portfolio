@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.7.1",
+    "@material-ui/icons": "^3.0.1",
+    "animate.css": "^3.7.0",
+    "aos": "^3.0.0-beta.6",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
+    "react-burger-menu": "^2.5.4",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-page-scroller": "^1.4.2",
+    "react-particles-js": "^2.4.2",
+    "react-scripts": "2.1.2",
+    "sal.js": "^0.5.0",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +32,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "style-loader": "^0.23.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
