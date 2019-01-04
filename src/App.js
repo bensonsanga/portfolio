@@ -13,6 +13,7 @@ import sal from 'sal.js'
 import '../node_modules/sal.js/dist/sal.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import animateScrollTo from 'animated-scroll-to';
 
 sal();
 AOS.init();
@@ -50,16 +51,16 @@ class App extends Component {
           </Menu>
           <main id="page-wrap">
             <div class="nav flex justify-around animated fadeInLeft">
-              <Topbar class="outline w-25 pa3" />
+              <Topbar class="outline w-25 pa3 " />
             </div>
             <div className="bodyFake">
-              <section>
+              <section class="w-100 h-100">
                 <Header />
               </section>
-              <section data-aos="fade-up"  data-aos-delay="400">
+              <section data-aos="fade-up" class="w-100 h-100"  data-aos-delay="400">
                 <UnderConstruction />
               </section>
-              <section data-aos="fade-up"  data-aos-delay="100">
+              <section ref="01" data-aos="fade-up" class="w-100 h-100" data-aos-delay="100">
                <Footer /> 
                <News />
               </section>

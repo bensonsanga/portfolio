@@ -41,7 +41,7 @@ function SimpleCard(props) {
   return (
     <div>
       <div className={classes.card}  class="flex justify-between">
-        <div  class="animated fadeInUp slow">
+        <div  class="animated fadeInUp slow" >
           <h1 className={classes.head}>Benson Sanga</h1>
           <div class="typewriter">
             <h1>Hello world. Amature Architect here</h1>

@@ -4,9 +4,11 @@ import { withStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import Icon from '@material-ui/core/Icon';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import HomeIcon from '@material-ui/icons/Home';
+import AssessmentIcon from '@material-ui/icons/Assessment';
+import ContactMail from '@material-ui/icons/ContactMail';
+import Work from '@material-ui/icons/Work';
+import animateScrollTo from 'animated-scroll-to';
 
 const styles = {
   root: {
@@ -25,10 +27,11 @@ const styles = {
 
 class Topbar extends React.Component {
   state = {
-    value: 'recents',
+    value: '01',
   };
 
   handleChange = (event, value) => {
+    animateScrollTo({ value });
     this.setState({ value });
   };
 
@@ -38,10 +41,10 @@ class Topbar extends React.Component {
 
     return (
       <BottomNavigation value={value} onChange={this.handleChange} className={classes.root}>
-        <BottomNavigationAction label="Folder" value="folder" className={classes.colors} icon={<Icon>Home</Icon>} />
-        <BottomNavigationAction label="Folder" value="folder" className={classes.colors} icon={<Icon>Projects</Icon>} />
-        <BottomNavigationAction label="Folder" value="folder" className={classes.colors} icon={<Icon>Blog</Icon>} />
-        <BottomNavigationAction label="Folder" value="folder" className={classes.colors} icon={<Icon>Extra</Icon>} />
+        <BottomNavigationAction onClick={animateScrollTo(0)} label="Home" className={classes.colors}  value="01" icon={<HomeIcon />} />
+        <BottomNavigationAction onClick={animateScrollTo(500)} label="Skills" className={classes.colors}  value="02" icon={<AssessmentIcon />} />
+        <BottomNavigationAction onClick={animateScrollTo(1500)} label="Contact" className={classes.colors}  value="03" icon={<ContactMail />} />
+        <BottomNavigationAction onClick={animateScrollTo(2000)} label="Projects" className={classes.colors}  value="04" icon={<Work />} />
       </BottomNavigation>
     );
   }

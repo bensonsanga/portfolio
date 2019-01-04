@@ -107,7 +107,6 @@
   color: white;
   text-align: right;
   font-family: "Roboto black";
-  font-size: 2.5em;
   text-decoration: none;
   padding: 5px;
 }
@@ -140,11 +139,11 @@
 section{
   padding:2em;
   height: calc(100vh - 4em);
-  scroll-snap-align: start;
 }
 
 .bodyFake{
   scroll-snap-type: y mandatory;
-  overflow-y: scroll; 
+  /*overflow-y: scroll; */
   scroll-padding-top: 150px;
 }
+
