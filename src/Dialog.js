@@ -20,6 +20,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
+import Stepper from './Stepper.js'
 
 const styles = theme => ({
   form: {
@@ -102,32 +103,10 @@ class MaxWidthDialog extends React.Component {
           onClose={this.handleClose}
           aria-labelledby="max-width-dialog-title"
         >
-          <DialogTitle id="max-width-dialog-title">Optional sizes</DialogTitle>
+          <DialogTitle id="max-width-dialog-title">A BensonAD projects</DialogTitle>
           <DialogContent>
-            <CardMedia
-                    className={classes.media}
-                    image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91608064395233.5ad0a386665f4.jpg"
-                    title="Project"
-                  />
+            <Stepper />
             <form className={classes.form} noValidate>
-              <FormControl className={classes.formControl}>
-                <InputLabel htmlFor="max-width">maxWidth</InputLabel>
-                <Select
-                  value={this.state.maxWidth}
-                  onChange={this.handleMaxWidthChange}
-                  inputProps={{
-                    name: 'max-width',
-                    id: 'max-width',
-                  }}
-                >
-                  <MenuItem value={false}>false</MenuItem>
-                  <MenuItem value="xs">xs</MenuItem>
-                  <MenuItem value="sm">sm</MenuItem>
-                  <MenuItem value="md">md</MenuItem>
-                  <MenuItem value="lg">lg</MenuItem>
-                  <MenuItem value="xl">xl</MenuItem>
-                </Select>
-              </FormControl>
               <FormControlLabel
                 className={classes.formControlLabel}
                 control={

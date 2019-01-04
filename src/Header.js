@@ -39,18 +39,18 @@ function SimpleCard(props) {
 
   return (
     <div>
-      <div  class="flex justify-between w-80">
+      <div  class="flex justify-between w-90">
         <div  class="animated fadeInUp slow" >
-          <h1  class="f1 f-subheadline-m f-headline-l white">Benson Sanga</h1>
-          <div class="typewriter f7 f6-m f5-l ">
-            <h1>Hello world. Amature Architect here</h1>
-          </div>
+          <h1  class="f3 f-subheadline-m f-headline-l white pl5">Benson Sanga</h1>
         </div>
         <div class="animated fadeInUp fast">
           <Avatar />
         </div>
-      </div>
 
+      </div>
+      <div class="w-70 typewriter f9 f6-m f5-l pl5">
+        <h1>Hello world. Amature Architect....</h1>
+      </div>
     </div>
     
   );

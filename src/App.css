@@ -154,3 +154,13 @@ section{
   transition: all 0.5s ease-in-out;
   transform: scale(1.05);
 }
+
+.float{
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  z-index: 1;
+}
+.float2{
+  z-index: 1;
+}

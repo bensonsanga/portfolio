@@ -12,7 +12,7 @@ const UnderConstruction = () =>{
 	          <a
 	            className="App-link"
 	            href="https://www.behance.net/bensonsang34cd"
-	            target="_blank"
+	            target="_blank" 
 	            rel="noopener noreferrer"
 	          >
 	            Learn more

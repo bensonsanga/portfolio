@@ -12,16 +12,19 @@ const styles = {
   },
   bigAvatar: {
     margin: "1em",
+    height: "12em",
     width: "12em",
-    height:"12em",
   },
 };
 
 function ImageAvatars(props) {
   const { classes } = props;
   return (
-    <Grid class="br-100 h5 w5 dib ba b--black-05 pa2" container justify="flex-end" alignItems="center">
-      <Avatar alt="Benson" src={require('./Avatar.jpg')} className={classes.bigAvatar} />
+    <Grid container justify="flex-end" alignItems="center">
+      <div class="f3 f-subheadline-m f-headline-l white pl5">
+        <Avatar alt="Benson" src={require('./Avatar.jpg')} className={classes.bigAvatar} />
+      </div>
+      
     </Grid>
   );
 }
