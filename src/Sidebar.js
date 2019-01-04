@@ -1,6 +1,5 @@
 import React from 'react';
 import { bubble as Menu } from 'react-burger-menu';
-import './sidebar.css';
 
 class Sidebar extends React.Component {
   showSettings (event) {

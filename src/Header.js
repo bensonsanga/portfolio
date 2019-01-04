@@ -29,8 +29,7 @@ const styles = {
   },
   head:{
     color: 'white',
-    padding: '40px',
-    fontSize: '100px'
+    fontSize: '4em',
   },
 };
 
@@ -40,15 +39,14 @@ function SimpleCard(props) {
 
   return (
     <div>
-      <div className={classes.card}  class="flex justify-between">
+      <div  class="flex justify-between w-80">
         <div  class="animated fadeInUp slow" >
-          <h1 className={classes.head}>Benson Sanga</h1>
-          <div class="typewriter">
+          <h1  class="f1 f-subheadline-m f-headline-l white">Benson Sanga</h1>
+          <div class="typewriter f7 f6-m f5-l ">
             <h1>Hello world. Amature Architect here</h1>
           </div>
         </div>
-        
-        <div  class="animated fadeInUp fast">
+        <div class="animated fadeInUp fast">
           <Avatar />
         </div>
       </div>

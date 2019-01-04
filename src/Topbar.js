@@ -9,6 +9,7 @@ import AssessmentIcon from '@material-ui/icons/Assessment';
 import ContactMail from '@material-ui/icons/ContactMail';
 import Work from '@material-ui/icons/Work';
 import animateScrollTo from 'animated-scroll-to';
+import 'tachyons';
 
 const styles = {
   root: {

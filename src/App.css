@@ -38,7 +38,7 @@
   left:0;
   bottom:0;
   z-index: -1; 
-  background: linear-gradient(45deg, #000000, #262626),linear-gradient(142deg, transparent, white),linear-gradient(108deg, #666666, transparent);
+  background: linear-gradient(45deg, #000000, #404040),linear-gradient(142deg, transparent, white),linear-gradient(108deg, #666666, transparent);
 
 }
 
@@ -147,3 +147,10 @@ section{
   scroll-padding-top: 150px;
 }
 
+.scrollmenu {
+}
+
+.scrollmenu :hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
+}

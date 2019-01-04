@@ -14,6 +14,9 @@ import '../node_modules/sal.js/dist/sal.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import animateScrollTo from 'animated-scroll-to';
+import Dialog from './Dialog.js';
+import Modal from './Modal.js';
+
 
 sal();
 AOS.init();
@@ -50,8 +53,8 @@ class App extends Component {
             <a id="contact" className="menu-item" href="https://www.facebook.com/benson.sanga?ref=bookmarks">Facebook</a>
           </Menu>
           <main id="page-wrap">
-            <div class="nav flex justify-around animated fadeInLeft">
-              <Topbar class="outline w-25 pa3 " />
+            <div class="nav flex justify-around animated fadeInLeft ml6">
+              <Topbar />
             </div>
             <div className="bodyFake">
               <section class="w-100 h-100">
@@ -59,6 +62,14 @@ class App extends Component {
               </section>
               <section data-aos="fade-up" class="w-100 h-100"  data-aos-delay="400">
                 <UnderConstruction />
+              </section>
+              <section data-aos="fade-up" class="flex justify-center flex-wrap w-100 h-100 scrollmenu"  data-aos-delay="400">
+                <Dialog />
+                <Dialog />
+                <Dialog />
+                <Dialog />
+                <Dialog />
+                <Dialog />
               </section>
               <section ref="01" data-aos="fade-up" class="w-100 h-100" data-aos-delay="100">
                <Footer /> 
