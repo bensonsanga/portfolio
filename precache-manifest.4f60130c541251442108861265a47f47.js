@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8d6ac3890b562d46bd35",
-    "url": "/portfolio/static/css/main.08f92f7a.chunk.css"
+    "revision": "59106e4fedccbdc81c80",
+    "url": "/portfolio/static/css/main.ea5dd706.chunk.css"
   },
   {
-    "revision": "8d6ac3890b562d46bd35",
-    "url": "/portfolio/static/js/main.8d6ac389.chunk.js"
+    "revision": "59106e4fedccbdc81c80",
+    "url": "/portfolio/static/js/main.59106e4f.chunk.js"
   },
   {
-    "revision": "8c85e0ffc84ff8233a85",
-    "url": "/portfolio/static/css/1.e8d08e34.chunk.css"
+    "revision": "def7333f1132a8591fb1",
+    "url": "/portfolio/static/css/1.54b6e12a.chunk.css"
   },
   {
-    "revision": "8c85e0ffc84ff8233a85",
-    "url": "/portfolio/static/js/1.8c85e0ff.chunk.js"
+    "revision": "def7333f1132a8591fb1",
+    "url": "/portfolio/static/js/1.def7333f.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Avatar.31000888.jpg"
   },
   {
-    "revision": "77aa7d059af2a4896bfdbe6aef7f7b71",
+    "revision": "4312da73b03cce6e1a8f2dc1622db2e2",
     "url": "/portfolio/index.html"
   }
 ];
