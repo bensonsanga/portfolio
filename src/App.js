@@ -17,6 +17,7 @@ import animateScrollTo from 'animated-scroll-to';
 import Dialog from './Dialog.js';
 import Modal from './Modal.js';
 import Float from './Float.js';
+import Chart from './Chart.js';
 
 
 sal();
@@ -62,13 +63,14 @@ class App extends Component {
               <Topbar />
             </div>
             <div className="bodyFake">
-              <section class="w-100 h-100">
+              <section class="w-100 h-100 section">
                 <Header />
               </section>
-              <section data-aos="fade-up" class="w-100 h-100"  data-aos-delay="400">
+              <Chart />
+              <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
                 <UnderConstruction />
               </section>
-              <section data-aos="fade-up" class="flex justify-center flex-wrap w-100 h-100 scrollmenu"  data-aos-delay="400">
+              <section data-aos="fade-up" class="flex justify-center flex-wrap w-100 h-100 section scrollmenu"  data-aos-delay="400">
                 <Dialog />
                 <Dialog />
                 <Dialog />
@@ -76,7 +78,7 @@ class App extends Component {
                 <Dialog />
                 <Dialog />
               </section>
-              <section ref="01" data-aos="fade-up" class="w-100 h-100" data-aos-delay="100">
+              <section ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
                <Footer /> 
                <News />
               </section>

@@ -136,7 +136,7 @@
   50% { border-color: white; }
 }
 
-section{
+.section{
   padding:2em;
   height: calc(100vh - 4em);
 }
