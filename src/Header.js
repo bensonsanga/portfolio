@@ -21,9 +21,6 @@ const styles = {
     margin: '0 2px',
     transform: 'scale(0.8)',
   },
-  title: {
-    fontSize: 14,
-  },
   pos: {
     marginBottom: 12,
   },
@@ -39,16 +36,16 @@ function SimpleCard(props) {
 
   return (
     <div>
-      <div  class="flex justify-between w-90">
+      <div  class="flex justify-between w-90 flex-wrap-reverse">
         <div  class="animated fadeInUp slow" >
-          <h1  class="f3 f-subheadline-m f-headline-l white pl5">Benson Sanga</h1>
+          <h1  class="f1-m f-subheadline-l white pl3">Benson Sanga</h1>
         </div>
         <div class="animated fadeInUp fast">
           <Avatar />
         </div>
 
       </div>
-      <div class="w-70 typewriter f9 f6-m f5-l pl5">
+      <div class="w-70 typewriter f9 f6-m f5-l pl3">
         <h1>Hello world. Amature Architect....</h1>
       </div>
     </div>

@@ -41,12 +41,15 @@ class Topbar extends React.Component {
     const { value } = this.state;
 
     return (
-      <BottomNavigation value={value} onChange={this.handleChange} className={classes.root}>
-        <BottomNavigationAction onClick={animateScrollTo(0)} label="Home" className={classes.colors}  value="01" icon={<HomeIcon />} />
-        <BottomNavigationAction onClick={animateScrollTo(500)} label="Skills" className={classes.colors}  value="02" icon={<AssessmentIcon />} />
-        <BottomNavigationAction onClick={animateScrollTo(1500)} label="Contact" className={classes.colors}  value="03" icon={<ContactMail />} />
-        <BottomNavigationAction onClick={animateScrollTo(2000)} label="Projects" className={classes.colors}  value="04" icon={<Work />} />
-      </BottomNavigation>
+      <div className="w-60 w-100-l w-90-m">
+        <BottomNavigation value={value} onChange={this.handleChange} className={classes.root}>
+          <BottomNavigationAction onClick={animateScrollTo(0)} label="Home" className={classes.colors}  value="01" icon={<HomeIcon />} />
+          <BottomNavigationAction onClick={animateScrollTo(500)} label="Skills" className={classes.colors}  value="02" icon={<AssessmentIcon />} />
+          <BottomNavigationAction onClick={animateScrollTo(1500)} label="Contact" className={classes.colors}  value="03" icon={<ContactMail />} />
+          <BottomNavigationAction onClick={animateScrollTo(2000)} label="Projects" className={classes.colors}  value="04" icon={<Work />} />
+        </BottomNavigation>
+      </div>
+      
     );
   }
 }

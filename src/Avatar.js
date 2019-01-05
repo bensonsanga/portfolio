@@ -6,12 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import 'tachyons';
 
 const styles = {
-  avatar: {
-    margin: 10,
-    padding: "2em",
-  },
   bigAvatar: {
-    margin: "1em",
     height: "12em",
     width: "12em",
   },
@@ -20,12 +15,14 @@ const styles = {
 function ImageAvatars(props) {
   const { classes } = props;
   return (
-    <Grid container justify="flex-end" alignItems="center">
-      <div class="f3 f-subheadline-m f-headline-l white pl5">
-        <Avatar alt="Benson" src={require('./Avatar.jpg')} className={classes.bigAvatar} />
-      </div>
-      
-    </Grid>
+    <div className="avatarSize">
+      <Grid container justify="flex-end" alignItems="center">
+        <div class="pl3">
+          <Avatar alt="Benson" src={require('./Avatar.jpg')} className={classes.bigAvatar} />
+        </div>
+      </Grid>
+    </div>
+    
   );
 }
 

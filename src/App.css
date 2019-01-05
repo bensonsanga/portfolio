@@ -18,6 +18,12 @@
   color: white;
 }
 
+.avatarSize{
+  min-height: 30vh;
+  display: flex;
+  height: 40vmin;
+}
+
 .App-link {
   color: #61dafb;
 }
