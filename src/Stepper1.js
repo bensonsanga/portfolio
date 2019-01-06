@@ -10,29 +10,29 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const tutorialSteps = [
   {
-    label: 'April design challenge',
+    label: 'ATrial 2',
     imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b2745b64395233.5ad0a38667825.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0d1bbf74238911.5c27b97c0d846.png',
   },
   {
-    label: 'Second render challenge',
+    label: 'Another one',
     imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/40786564395233.5ad0a38665840.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/19a46574238911.5c27b97c0d2c1.png',
   },
   {
-    label: 'Use of multiple render programs',
+    label: 'Third one',
     imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/af703764395233.5ad0a386671be.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13007a74238911.5c27b97c0d0b9.png',
   },
   {
-    label: 'Jean render',
+    label: 'Fourth one',
     imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c82ff064395233.5ad0a38665f8c.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/55a08c74238911.5c27b97c0dffb.png',
   },
   {
-    label: 'Gaudi like structure',
+    label: 'Fifth one',
     imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ae172664395233.5ad22fa0d6529.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75fcbf74238911.5c27b97c0ca4a.png',
   },
 ];
 

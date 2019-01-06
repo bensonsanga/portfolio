@@ -3,7 +3,6 @@ import './App.css';
 import UnderConstruction from "./UnderConstruction.js";
 import Header from './Header.js';
 import News from './News.js';
-import Footer from './Footer.js';
 import Particles from 'react-particles-js';
 import Sidebar from './Sidebar.js';
 import Topbar from './Topbar.js';
@@ -14,10 +13,12 @@ import '../node_modules/sal.js/dist/sal.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import animateScrollTo from 'animated-scroll-to';
-import Dialog from './Dialog.js';
+import ProjectList from './ProjectList.js';
 import Modal from './Modal.js';
 import Float from './Float.js';
 import Chart from './Chart.js';
+import RenderDialog from './RenderDialog.js';
+
 
 
 sal();
@@ -66,20 +67,15 @@ class App extends Component {
               <section class="w-100 h-100 section">
                 <Header />
               </section>
-              <Chart />
+              <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
+                <Chart />
+              </section>
               <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
                 <UnderConstruction />
               </section>
-              <section data-aos="fade-up" class="flex justify-center flex-wrap w-100 h-100 section scrollmenu"  data-aos-delay="400">
-                <Dialog />
-                <Dialog />
-                <Dialog />
-                <Dialog />
-                <Dialog />
-                <Dialog />
-              </section>
+              <ProjectList />
               <section ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
-               <Footer /> 
+               <RenderDialog />
                <News />
               </section>
             </div>

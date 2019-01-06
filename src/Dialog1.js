@@ -20,7 +20,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
-import Stepper from './Stepper.js';
+import Stepper from './Stepper1.js';
 import { projects } from './projects.js';
 
 const styles = theme => ({
@@ -82,7 +82,7 @@ class MaxWidthDialog extends React.Component {
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
-                    image={"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91608064395233.5ad0a386665f4.jpg"}
+                    image={"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3bb6ff74238911.5c28944822776.png"}
                     title="Project"
                   />
                   <CardContent>
