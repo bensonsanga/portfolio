@@ -82,7 +82,7 @@ class MaxWidthDialog extends React.Component {
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
-                    image={"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3bb6ff74238911.5c28944822776.png"}
+                    image={"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/40786564395233.5ad0a38665840.jpg"}
                     title="Project"
                   />
                   <CardContent>

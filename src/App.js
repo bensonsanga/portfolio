@@ -20,7 +20,6 @@ import Chart from './Chart.js';
 import RenderDialog from './RenderDialog.js';
 
 
-
 sal();
 AOS.init();
 
@@ -46,42 +45,42 @@ const particlesOptions = {
 class App extends Component {
   render() {
     return (
-      <div >
-        <Particles className="particles" params={particlesOptions}/>
-        <div class="float">
-          <Float />
+        <div >
+          <Particles className="particles" params={particlesOptions}/>
+          <div class="float">
+            <Float />
+          </div>
+          
+          <div id="outer-container">
+            <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ '30%' }>
+              <a id="home" className="menu-item" href="mailto:bensonsanga@hotmail.com">Mail</a>
+              <a id="about" className="menu-item" href="https://www.instagram.com/ymcmbennie/">Instagram</a>
+              <a id="contact" className="menu-item" href="https://www.behance.net/bensonsang34cd">Behance</a>
+              <a id="contact" className="menu-item" href="https://www.facebook.com/benson.sanga?ref=bookmarks">Facebook</a>
+            </Menu>
+            <main id="page-wrap">
+              <div class="nav flex justify-around animated fadeInLeft ml6 float2">
+                <Topbar />
+              </div>
+              <div className="bodyFake">
+                <section class="w-100 h-100 section">
+                  <Header />
+                </section>
+                <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
+                  <Chart />
+                </section>
+                <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
+                  <UnderConstruction />
+                </section>
+                <ProjectList />
+                <section ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
+                 <RenderDialog />
+                 <News />
+                </section>
+              </div>
+            </main>
+          </div>
         </div>
-        
-        <div id="outer-container">
-          <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ '30%' }>
-            <a id="home" className="menu-item" href="mailto:bensonsanga@hotmail.com">Mail</a>
-            <a id="about" className="menu-item" href="https://www.instagram.com/ymcmbennie/">Instagram</a>
-            <a id="contact" className="menu-item" href="https://www.behance.net/bensonsang34cd">Behance</a>
-            <a id="contact" className="menu-item" href="https://www.facebook.com/benson.sanga?ref=bookmarks">Facebook</a>
-          </Menu>
-          <main id="page-wrap">
-            <div class="nav flex justify-around animated fadeInLeft ml6 float2">
-              <Topbar />
-            </div>
-            <div className="bodyFake">
-              <section class="w-100 h-100 section">
-                <Header />
-              </section>
-              <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
-                <Chart />
-              </section>
-              <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
-                <UnderConstruction />
-              </section>
-              <ProjectList />
-              <section ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
-               <RenderDialog />
-               <News />
-              </section>
-            </div>
-          </main>
-        </div>
-      </div>
       
     );
   }
