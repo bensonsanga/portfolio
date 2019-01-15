@@ -104,7 +104,7 @@ class MaxWidthDialog extends React.Component {
           onClose={this.handleClose}
           aria-labelledby="max-width-dialog-title"
         >
-          <DialogTitle id="max-width-dialog-title">{projects[0].name}</DialogTitle>
+          <DialogTitle id="max-width-dialog-title">{projects[1].name}</DialogTitle>
           <DialogContent>
             <Stepper />
             <form className={classes.form} noValidate>
