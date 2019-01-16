@@ -20,7 +20,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
-import Stepper from './Stepper.js';
+import Stepper from './Stepper.js'; 
 import { projects } from './projects.js';
 
 const styles = theme => ({
@@ -74,6 +74,7 @@ class MaxWidthDialog extends React.Component {
 
   render() {
     const { classes } = this.props;
+    const { name, cover, description, id, images} = this.props;
 
     return (
       <React.Fragment>
@@ -82,15 +83,15 @@ class MaxWidthDialog extends React.Component {
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
-                    image={"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91608064395233.5ad0a386665f4.jpg"}
+                    image={`${cover}`}
                     title="Project"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2" className={classes.text}>
-                      {projects[0].name}
+                      {name}
                     </Typography>
                     <Typography component="p" className={classes.text}>
-                      {projects[0].description}
+                      {description}
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -104,9 +105,9 @@ class MaxWidthDialog extends React.Component {
           onClose={this.handleClose}
           aria-labelledby="max-width-dialog-title"
         >
-          <DialogTitle id="max-width-dialog-title">{projects[0].name}</DialogTitle>
+          <DialogTitle id="max-width-dialog-title">{name}</DialogTitle>
           <DialogContent>
-            <Stepper />
+            <Stepper images = {images}/>
             <form className={classes.form} noValidate>
               <FormControlLabel
                 className={classes.formControlLabel}

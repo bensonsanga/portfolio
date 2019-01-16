@@ -87,10 +87,10 @@ class MaxWidthDialog extends React.Component {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2" className={classes.text}>
-                      {projects[0].name}
+                      {projects[1].name}
                     </Typography>
                     <Typography component="p" className={classes.text}>
-                      {projects[0].description}
+                      {projects[1].description}
                     </Typography>
                   </CardContent>
                 </CardActionArea>
