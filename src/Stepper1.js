@@ -8,33 +8,7 @@ import Button from '@material-ui/core/Button';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft'; 
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
-const tutorialSteps = [
-  {
-    label: 'ATrial 2',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0d1bbf74238911.5c27b97c0d846.png',
-  },
-  {
-    label: 'Another one',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/19a46574238911.5c27b97c0d2c1.png',
-  },
-  {
-    label: 'Third one',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13007a74238911.5c27b97c0d0b9.png',
-  },
-  {
-    label: 'Fourth one',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/55a08c74238911.5c27b97c0dffb.png',
-  },
-  {
-    label: 'Fifth one',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75fcbf74238911.5c27b97c0ca4a.png',
-  },
-];
+
 
 const styles = theme => ({
   root: {
@@ -81,17 +55,18 @@ class TextMobileStepper extends React.Component {
   render() {
     const { classes, theme } = this.props;
     const { activeStep } = this.state;
-    const maxSteps = tutorialSteps.length;
+    const maxSteps = images.length;
+    const images = this.props.images;
 
     return (
       <div className={classes.root}>
         <Paper square elevation={0} className={classes.header}>
-          <Typography>{tutorialSteps[activeStep].label}</Typography>
+          <Typography>{images[activeStep].label}</Typography>
         </Paper>
         <img
           className={classes.img}
-          src={tutorialSteps[activeStep].imgPath}
-          alt={tutorialSteps[activeStep].label}
+          src={images[activeStep].imgPath}
+          alt={images[activeStep].label}
         />
         <MobileStepper
           steps={maxSteps}

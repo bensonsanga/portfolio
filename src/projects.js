@@ -8,10 +8,15 @@ export const projects = [
 		architect: 'Benson Sanga',
 		date: 'January 2016',
 		images: [
+					{
+				    label: 'Fifth one',
+				    imgPath:
+				      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75fcbf74238911.5c27b97c0ca4a.png',
+				  },
 				  {
 				    label: 'ATrial 2',
 				    imgPath:
-				      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0d1bbf74238911.5c27b97c0d846.png',
+				      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8e96be64395233.5ad0a38665155.jpg',
 				  },
 				  {
 				    label: 'Another one',
@@ -28,11 +33,7 @@ export const projects = [
 				    imgPath:
 				      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/55a08c74238911.5c27b97c0dffb.png',
 				  },
-				  {
-				    label: 'Fifth one',
-				    imgPath:
-				      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75fcbf74238911.5c27b97c0ca4a.png',
-				  },
+				  
 				],
 	},
 	{

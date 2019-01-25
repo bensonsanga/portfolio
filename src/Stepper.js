@@ -8,33 +8,6 @@ import Button from '@material-ui/core/Button';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
-const tutorialSteps = [
-  {
-    label: 'April design challenge',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b2745b64395233.5ad0a38667825.jpg',
-  },
-  {
-    label: 'Second render challenge',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/40786564395233.5ad0a38665840.jpg',
-  },
-  {
-    label: 'Use of multiple render programs',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/af703764395233.5ad0a386671be.jpg',
-  },
-  {
-    label: 'Jean render',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c82ff064395233.5ad0a38665f8c.jpg',
-  },
-  {
-    label: 'Gaudi like structure',
-    imgPath:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ae172664395233.5ad22fa0d6529.jpg',
-  },
-];
 
 const styles = theme => ({
   root: {
@@ -82,6 +55,8 @@ class TextMobileStepper extends React.Component {
     const { classes, theme } = this.props;
     const { activeStep } = this.state;
     const maxSteps = tutorialSteps.length;
+    const tutorialSteps = this.props.images;
+
 
     return (
       <div className={classes.root}>

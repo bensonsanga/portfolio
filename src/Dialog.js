@@ -107,7 +107,7 @@ class MaxWidthDialog extends React.Component {
         >
           <DialogTitle id="max-width-dialog-title">{name}</DialogTitle>
           <DialogContent>
-            <Stepper images = {images}/>
+            <Stepper images= {images}/>
             <form className={classes.form} noValidate>
               <FormControlLabel
                 className={classes.formControlLabel}
