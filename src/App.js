@@ -70,9 +70,11 @@ class App extends Component {
                   <Chart />
                 </section>
                 <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
-                  <UnderConstruction />
+                  {/*<UnderConstruction />*/}
                 </section>
-                <ProjectList />
+                <section>
+                  <ProjectList /> 
+                </section>
                 <section ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
                  <RenderDialog />
                  <News />

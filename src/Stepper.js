@@ -54,8 +54,9 @@ class TextMobileStepper extends React.Component {
   render() {
     const { classes, theme } = this.props;
     const { activeStep } = this.state;
-    const maxSteps = tutorialSteps.length;
     const tutorialSteps = this.props.images;
+    const maxSteps = tutorialSteps.length;
+    
 
 
     return (

@@ -65,25 +65,21 @@ class CustomizedExpansionPanel extends React.Component {
       <div>
         <ExpansionPanel expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
           <ExpansionPanelSummary>
-            <Typography>New Grasshopper tutorial</Typography>
+            <Typography>New Grasshopper Plugin development</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus
-              ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                I have been developing a grasshopper plugin and a python library to assist in generation of geometry, automation of tasks and presentations of the designs in a more legible manner
             </Typography>
           </ExpansionPanelDetails>
         </ExpansionPanel>
         <ExpansionPanel expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
           <ExpansionPanelSummary>
-            <Typography>Looking for a model</Typography>
+            <Typography>Creating an asset library</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus
-              ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+             I have been also working to make comprehesive assest file incuding cutout people, brushes, fonts, sheets and other elements used in presentation boards
             </Typography>
           </ExpansionPanelDetails>
         </ExpansionPanel>
@@ -93,9 +89,7 @@ class CustomizedExpansionPanel extends React.Component {
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus
-              ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+              Waiting for some competion results. But in the mean time I am very eager to take part in other project. So if they are any please reach out.
             </Typography>
           </ExpansionPanelDetails>
         </ExpansionPanel>

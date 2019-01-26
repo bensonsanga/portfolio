@@ -5,14 +5,19 @@ import { projects } from './projects.js';
 
 const ProjectList = () => {
     const cardComponent = projects.map((project,i )=> {
-        return  (<Dialog 
+        return  (
+        <div class="horizontal-scroll-wrapper squares">
+            <div>
+                <Dialog
                 key= {i} 
                 id = {projects[i].id} 
                 name={projects[i].name} 
                 description={projects[i].description} 
                 cover= {projects[i].cover}
                 images= {projects[i].images}
-                />);
+                />
+            </div>
+        </div>);
     })
 	return(
 		<section data-aos="fade-up" class="flex justify-center flex-wrap w-100 h-100 section scrollmenu"  data-aos-delay="400">
@@ -20,5 +25,5 @@ const ProjectList = () => {
               </section>
 		)
 };
-
+ 
 export default ProjectList; 

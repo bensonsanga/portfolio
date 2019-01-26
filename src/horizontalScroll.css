@@ -1,0 +1,11 @@
+.horizontal-scroll-wrapper {
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+
+}
+.horizontal-scroll-wrapper > div {
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
