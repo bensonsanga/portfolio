@@ -7,8 +7,8 @@ import 'tachyons';
 
 const styles = {
   bigAvatar: {
-    height: "12em",
     width: "12em",
+    height: "12em",
   },
 };
 
@@ -16,13 +16,9 @@ function ImageAvatars(props) {
   const { classes } = props;
   return (
     <div className="avatarSize">
-      <Grid container justify="flex-end" alignItems="center">
-        <div class="pl3">
           <Avatar alt="Benson" src={require('./Avatar.jpg')} className={classes.bigAvatar} />
-        </div>
-      </Grid>
     </div>
-    
+
   );
 }
 

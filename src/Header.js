@@ -36,9 +36,9 @@ function SimpleCard(props) {
 
   return (
     <div>
-      <div  class="flex justify-between w-90 flex-wrap-reverse">
+      <div  class="flex justify-around w-90 flex-wrap-reverse">
         <div  class="animated fadeInUp slow" >
-          <h1  class="f1-m f-subheadline-l white pl3">Benson Sanga</h1>
+          <h1  class="f1-m f-headline-l white pl3">Benson Sanga</h1>
         </div>
         <div class="animated fadeInUp fast">
           <Avatar />
@@ -49,7 +49,7 @@ function SimpleCard(props) {
         <h1>Hello world. Amature Architect....</h1>
       </div>
     </div>
-    
+
   );
 }
 

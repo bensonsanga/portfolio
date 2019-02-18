@@ -7,7 +7,7 @@ import Particles from 'react-particles-js';
 import Sidebar from './Sidebar.js';
 import Topbar from './Topbar.js';
 import 'tachyons';
-import { bubble as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
 import sal from 'sal.js'
 import '../node_modules/sal.js/dist/sal.css';
 import AOS from 'aos';
@@ -50,13 +50,13 @@ class App extends Component {
           <div class="float">
             <Float />
           </div>
-          
-          <div id="outer-container">
-            <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ '30%' }>
-              <a id="home" className="menu-item" href="mailto:bensonsanga@hotmail.com">Mail</a>
-              <a id="about" className="menu-item" href="https://www.instagram.com/ymcmbennie/">Instagram</a>
-              <a id="contact" className="menu-item" href="https://www.behance.net/bensonsang34cd">Behance</a>
-              <a id="contact" className="menu-item" href="https://www.facebook.com/benson.sanga?ref=bookmarks">Facebook</a>
+
+          <div>
+            <Menu>
+              <a id="home" className="menu-item f4 f2-ns" href="mailto:bensonsanga@hotmail.com">Mail</a>
+              <a id="about" className="menu-item  f4 f2-ns" href="https://www.instagram.com/ymcmbennie/">Instagram</a>
+              <a id="contact" className="menu-item  f4 f2-ns" href="https://www.behance.net/bensonsang34cd">Behance</a>
+              <a id="contact" className="menu-item  f4 f2-ns" href="https://www.facebook.com/benson.sanga?ref=bookmarks">Facebook</a>
             </Menu>
             <main id="page-wrap">
               <div class="nav flex justify-around animated fadeInLeft ml6 float2">
@@ -73,7 +73,7 @@ class App extends Component {
                   {/*<UnderConstruction />*/}
                 </section>
                 <section>
-                  <ProjectList /> 
+                  <ProjectList />
                 </section>
                 <section ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
                  <RenderDialog />
@@ -83,7 +83,7 @@ class App extends Component {
             </main>
           </div>
         </div>
-      
+
     );
   }
 }
