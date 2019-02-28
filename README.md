@@ -1,5 +1,6 @@
 ## This my Portfolio build
- See the live demo at [Portfolio demo](https://ymcmbennie.github.io/portfolio/)
+ See the live demo at [Portfolio demo] (https://ymcmbennie.github.io/portfolio/)
+ All link to other friends Portfolios in il.ink/ymcmbennie
 
 
 
