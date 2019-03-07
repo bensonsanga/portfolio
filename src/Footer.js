@@ -78,7 +78,7 @@ const styles = theme => ({
 
 const images = [
   {
-    url: 'http://www.renderit.cc/wp-content/uploads/2016/02/0-renderit-exterior2-rendering.jpg',
+    url: 'http://www.sergiomereces.com/wp-content/uploads/2016/03/Kiribati_Final_Render_HD_portfolio_2000x_2.jpg',
     title: 'Renders',
     width: '25%',
   },

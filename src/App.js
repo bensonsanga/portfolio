@@ -66,16 +66,13 @@ class App extends Component {
                 <section class="w-100 h-100 section">
                   <Header />
                 </section>
-                <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
+                <section id="charts" data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
                   <Chart />
                 </section>
-                <section data-aos="fade-up" class="w-100 h-100 section"  data-aos-delay="400">
-                  {/*<UnderConstruction />*/}
-                </section>
-                <section>
+                <div id="projects">
                   <ProjectList />
-                </section>
-                <section ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
+                </div>
+                <section id="end" ref="01" data-aos="fade-up" class="w-100 h-100 section" data-aos-delay="100">
                  <RenderDialog />
                  <News />
                 </section>
