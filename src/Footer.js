@@ -78,22 +78,22 @@ const styles = theme => ({
 
 const images = [
   {
-    url: 'http://www.sergiomereces.com/wp-content/uploads/2016/03/Kiribati_Final_Render_HD_portfolio_2000x_2.jpg',
+    url: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/48e16377337223.5c8519250ed4b.jpg',
     title: 'Renders',
     width: '25%',
   },
   {
-    url: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f120ae36351729.56064345db123.jpg',
+    url: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/68324a76416681.5c69801b27f56.png',
     title: 'Sketches',
     width: '25%',
   },
   {
-    url: 'https://www.designingbuildings.co.uk/w/images/c/c3/As-built-drawings.jpg',
+    url: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bc585c77344463.5c854714462bb.jpg',
     title: 'Techniacal',
     width: '25%',
   },
   {
-    url: 'https://www.arch2o.com/wp-content/uploads/2017/02/Arch2O-Architectural-model.jpg',
+    url: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e4d46277341615.5c85350ba8d21.jpg',
     title: 'Models',
     width: '25%',
   },
