@@ -53,11 +53,12 @@ class App extends Component {
 
           <div>
             <Menu>
-              <a id="ccres" className="menu-item f4 f2-ns" href="http://ccresources.herokuapp.com">CCResources</a>
-              <a id="home" className="menu-item f4 f2-ns" href="mailto:bensonsanga@hotmail.com">Mail</a>
-              <a id="about" className="menu-item  f4 f2-ns" href="https://www.instagram.com/ymcmbennie/">Instagram</a>
-              <a id="contact" className="menu-item  f4 f2-ns" href="https://www.behance.net/bensonsang34cd">Behance</a>
-              <a id="contact" className="menu-item  f4 f2-ns" href="https://www.facebook.com/benson.sanga?ref=bookmarks">Facebook</a>
+              <a id="ccres" target="blank" className="menu-item f4 f2-ns" href="http://ccresources.herokuapp.com">CCResources</a>
+              <a id="home" target="blank" className="menu-item f4 f2-ns" href="mailto:bensonsanga@hotmail.com">Mail</a>
+              <a id="about" target="blank" className="menu-item  f4 f2-ns" href="https://www.instagram.com/ymcmbennie/">Instagram</a>
+              <a id="contact" target="blank" className="menu-item  f4 f2-ns" href="https://www.behance.net/bensonsang34cd">Behance</a>
+              <a id="contact" target="blank" className="menu-item  f4 f2-ns" href="https://www.facebook.com/benson.sanga?ref=bookmarks">Facebook</a>
+              <a id="ccres" target="blank" className="menu-item f4 f2-ns" href="http://bensonadpresents.herokuapp.com/">Slides</a>
             </Menu>
             <main id="page-wrap">
               <div class="nav flex justify-around animated fadeInLeft ml6 float2">
