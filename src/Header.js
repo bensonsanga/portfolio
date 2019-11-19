@@ -46,7 +46,7 @@ function SimpleCard(props) {
 
       </div>
       <div class="w-70 typewriter f9 f6-m f5-l pl3">
-        <h1>Hello world. Amature Architect....</h1>
+        <h1>Hello world. Amateur Architect....</h1>
       </div>
     </div>
 
